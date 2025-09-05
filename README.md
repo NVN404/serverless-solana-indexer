@@ -1,5 +1,6 @@
 # Serverless Solana Indexer
-I have tried to make 
+
+I have tried to make
 a serverless indexer designed to track real-time events on the Solana blockchain. This project leverages Helius webhooks for live on-chain event data and Supabase Edge Functions for processing and storage.
 
 ## Features
@@ -7,8 +8,7 @@ a serverless indexer designed to track real-time events on the Solana blockchain
 - **Real-time:** Captures and stores token transfers seconds after they are confirmed on-chain.
 - **Serverless:** Built entirely on managed infrastructure, requiring no server maintenance Easily configured to track anything , like It can handle the high throughput of tokens.
 - **easy setup:** There's no complex client library or connection management, allowing you to go from idea to a working product in hours for example Rapid prototyping in hackathons where speed is critical
-- **Perfect for Applications:** This can be used for rapidly building and testing new ideas. where the goal is to get clean data into a database to be served via an API.
-
+- **Perfect for quick Applications:** This can be used for rapidly building and testing new ideas. where the goal is to get clean data into a database to be served via an API.
 
 ## Tech Stack
 
@@ -26,7 +26,7 @@ The data pipeline is simple and efficient:
 
 ## Getting Started
 
-Follow these instructions to set up and deploy your own  solana indexer.
+Follow these instructions to set up and deploy your own solana indexer.
 here we will implement for token transfers
 
 ### Prerequisites
